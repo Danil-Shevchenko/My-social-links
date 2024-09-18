@@ -1,0 +1,78 @@
+@font-face {
+    font-family: Inter;
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+
+
+body{
+    background-color: hsl(0, 0%, 8%);
+    margin: 0;
+    font-family: Inter;
+    font-size: 14px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* это свойство вместо align-content для центрирования */
+    height: 100vh; /* 100% высоты окна */
+}
+main{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 400px;
+    height: 450px;
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 12%);
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+.link{
+    display: flex;
+    border: none;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    background-color: hsl(0, 0%, 20%);
+    width: 80%;
+    border-radius: 5px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+h2,h4,p{
+    margin: 0;
+}
+
+h2{
+    color:hsl(0, 0%, 100%);
+    font-weight: 700;
+    
+}
+h4{
+    color: hsl(75, 94%, 57%);
+    font-weight: 600
+}
+p{
+    color:hsl(0, 0%, 80%);
+    font-weight: 400;
+}
+
+
+img{
+    width: 25%;
+    border-radius: 100%;
+}
+
+.link:hover{
+    color:hsl(0, 0%, 8%);
+    font-weight: 600;
+    background-color: hsl(75, 94%, 57%);
+}
+
+
